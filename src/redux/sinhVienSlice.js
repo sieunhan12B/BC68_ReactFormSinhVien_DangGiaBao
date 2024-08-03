@@ -3,24 +3,24 @@ import { removeVietnameseTones } from "../util/util";
 
 const initialState = {
   arrSinhVien: [
-    {
-      hoTen: "Baobu",
-      mssv: "1",
-      sdt: "0902378418",
-      email: "dgb@gmail.com",
-    },
-    {
-      hoTen: "anh Khải đẹp trai",
-      mssv: "2",
-      sdt: "0902378123",
-      email: "doe@gmail.com",
-    },
-    {
-      hoTen: "chị Giao đẹp gái",
-      mssv: "3",
-      sdt: "0902378456",
-      email: "toi@gmail.com",
-    },
+    // {
+    //   hoTen: "Baobu",
+    //   mssv: "1",
+    //   sdt: "0902378418",
+    //   email: "dgb@gmail.com",
+    // },
+    // {
+    //   hoTen: "anh Khải đẹp trai",
+    //   mssv: "2",
+    //   sdt: "0902378123",
+    //   email: "doe@gmail.com",
+    // },
+    // {
+    //   hoTen: "chị Giao đẹp gái",
+    //   mssv: "3",
+    //   sdt: "0902378456",
+    //   email: "toi@gmail.com",
+    // },
   ],
   sinhVien: {},
   arrSinhVienFilter: [],
