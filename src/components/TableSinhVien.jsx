@@ -57,7 +57,7 @@ const TableSinhVien = ({ arrSinhVien, arrSinhVienFilter }) => {
     <Table
       columns={columns}
       dataSource={
-        arrSinhVienFilter.length == 0 && !tenSinhVienTimKiem
+        arrSinhVienFilter.length == 0 || !tenSinhVienTimKiem
           ? arrSinhVien
           : arrSinhVienFilter
       }
