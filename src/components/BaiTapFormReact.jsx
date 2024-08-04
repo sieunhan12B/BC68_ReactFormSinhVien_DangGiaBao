@@ -43,7 +43,14 @@ const BaiTapFormReact = () => {
     },
     onSubmit: (values, { resetForm }) => {
       resetForm();
-      dispatch(themSinhVien(values));
+      const exist = arrSinhVien.findIndex((item, index) => {
+        return item.mssv === values.mssv;
+      });
+      if (exist != -1) {
+        alert("mã số sinh viên đã tồn tại ");
+      } else {
+        dispatch(themSinhVien(values));
+      }
     },
     validationSchema: yup.object({
       email: yup
